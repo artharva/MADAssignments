@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:padding="10dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <!-- Item 1: Java -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/java"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/java" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 2: Python -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/python"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/python" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 3: R Programming -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/r_prog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/r_prog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R-Prog Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 4: MAD -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/mad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAD Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 5: Web Dev -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/webdev"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/webdev" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Dev"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 6: DBMS -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/dbms"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dbms" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DBMS Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 7: System Prog -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/system_prog"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/system_prog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Systems Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 8: Research -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/research"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/research" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Research"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <!-- Item 9: Project -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/project"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/project" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Lab"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+</GridLayout>
